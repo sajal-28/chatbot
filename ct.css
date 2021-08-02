@@ -1,0 +1,144 @@
+
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* padding-right: 20px; */
+    margin-bottom: 90px;
+   
+   
+    
+}
+footer>.container >#txtbox
+{
+    position:fixed;
+    width: 330px;
+    height: 50px;
+   
+    bottom: 0vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+   float: left;
+   border-radius: 50px;
+   margin-right: 60px;
+   text-decoration: none;
+ border-style: none;
+ background-color: antiquewhite;
+ outline: none;
+ text-align: center;
+ font-size: 20px;
+   
+}
+footer>.container >#send
+{
+    position:fixed;
+    width: 30px;
+    height: 30px;
+   
+    bottom: 0vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+   cursor: pointer;
+   margin-left: 100px;
+ 
+
+   
+}
+footer>.container >#mic
+{
+  
+    
+    position:fixed;
+     width: 40px;
+     height: 40px;
+     background-color: red;
+     bottom: 0vh;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 27px;
+     border-radius: 50%;
+     cursor: pointer;
+     float: right;
+     margin-left: 190px;
+    
+} 
+
+.container>.outer-cont>.img1>img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+
+.container>.outer-cont>.img1>#box1
+{
+    min-width: 300px;
+    min-height: 50px;
+    background-color:chartreuse;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+.container>.outer-cont>.img1>#box2
+{
+    min-width: 300px;
+    min-height: 50px;
+    background-color: aqua;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    
+    /* margin-top: 50px; */
+    
+}
+.container>.outer-cont>.f1
+{
+    margin-right: 70px;
+    margin-top: 20px;
+}
+.container>.outer-cont>.f2
+{
+    margin-left: 70px;
+    margin-top: 20px;
+   
+}
+@media(max-width:500px)
+{
+    .container>.outer-cont>.f1
+{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.container>.outer-cont>.f2
+{
+    margin-left: 30px;
+    margin-top: 20px;
+   
+}
+footer>.container >#txtbox
+{
+    height: 30px;
+    width: 250px;
+    margin-left: 40px;
+}
+footer>.container >#mic
+{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 22px;
+    margin-left: 140px;
+}
+footer>.container >#send
+{
+    margin-bottom: 26px;
+    height: 20px;
+    width: 20px;
+    margin-left: 90px;
+}
+}
